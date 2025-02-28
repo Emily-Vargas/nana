@@ -1,0 +1,7 @@
+respone = ollama.chat(model="llama3", messages=[
+    {
+        'role': 'user',
+        'content': ' reply as lelouch vi britania from code geass why is the sky blue, answer in 70 words',
+    },
+])
+print(respone['message']['content'])
